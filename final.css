@@ -1,0 +1,94 @@
+
+
+.navbar-brand{
+  
+    font-family: "Protest Strike", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.container-fluid{
+  display: flex;
+  align-items: end;
+}
+header{
+  font-size: 60%;
+}
+
+.nav-link{
+  font-size: 23px;
+}
+.nav-link:hover{
+  color: white ;
+}
+.navbar-brand{
+  font-size: 35px;
+      font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+  }
+  .navbar-brand:hover{
+    animation: animate__bounce 1s ease-in-out; 
+  }
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-text{
+  text-align: justify;
+}
+.card{
+  display: grid;  
+  position: relative;
+  margin: 20px;
+}
+.card-title{
+  text-align: center;
+  margin: 5 px;
+}
+.precio {
+  position: -webkit-sticky;
+  bottom: 0;
+  left: 60%;
+  color: rgb(0, 0, 0);
+  font-family: "Geist Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-size: 20px;
+}
+.btn-primary{
+  display: grid;
+  align-items: center;
+}
+.mates{
+  width: 270px;
+  height: 360px;
+}
+.pampa{
+  width: 270px;
+  height: 290px;
+}
+.foto{
+  height: auto;
+  width: 100%;
+}
+footer{
+  background-color: rgb(68, 63, 63);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Geist Mono", monospace;
+  align-items: center;
+  height: 60px; 
+}
+.btn{
+  margin-top: auto !important;
+}
+/* .carusel{
+  display: block;
+  width: 750px;
+  height: 650px;
+} */
